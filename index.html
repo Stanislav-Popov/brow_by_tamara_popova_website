@@ -6,11 +6,17 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="responsive.css" />
         <title>Tamara Popova</title>
+        <script src="main.js" defer></script>
     </head>
     <body>
         <nav class="navbar">
             <div class="container">
+                <button class="header-burger-btn" id="burger-btn">
+                    <span></span><span></span><span></span>
+                </button>
+
                 <a href="#" class="navbar-brand">BROW BY TAMARA POPOVA</a>
 
                 <div class="navbar-wrap">
@@ -53,19 +59,18 @@
                     </p>
                 </div>
                 <div class="about-me-photo">
-                    <img src="images/about_me_photo.jpg" style="width: 450px" />
+                    <img src="images/about_me_photo.jpg" />
                 </div>
             </div>
         </div>
 
         <div class="services-preview">
             <div class="container">
-                <div class="services-preview-item">
+                <div class="services-preview-item-1">
                     <div class="services-preview-item-photo">
                         <img
+                            class="services-preview-item-photo-img"
                             src="images/Idei_modnogo_okrashivaniya_volos_6.jpg"
-                            height="220px"
-                            width="370px"
                         />
                     </div>
                     <div class="services-preview-item-text">
@@ -91,12 +96,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="services-preview-item">
+                <div class="services-preview-item-2">
                     <div class="services-preview-item-photo">
                         <img
+                            class="services-preview-item-photo-img"
                             src="images/Idei_modnogo_okrashivaniya_volos_6.jpg"
-                            height="220px"
-                            width="370px"
                         />
                     </div>
                     <div class="services-preview-item-text">
@@ -122,12 +126,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="services-preview-item">
+                <div class="services-preview-item-3">
                     <div class="services-preview-item-photo">
                         <img
+                            class="services-preview-item-photo-img"
                             src="images/Idei_modnogo_okrashivaniya_volos_6.jpg"
-                            height="220px"
-                            width="370px"
                         />
                     </div>
                     <div class="services-preview-item-text">
@@ -161,7 +164,7 @@
                 <div class="portfolio-name">
                     <h1 class="portfolio-name-text">Портфолио</h1>
                 </div>
-                <div class="portfolio-photos">
+                <div class="portfolio-photos" id="portfolioPhotosBlock">
                     <div class="portfolio-photo-item">
                         <img src="images/piqsels.com-id-sthwf-2048x1402.jpg" />
                     </div>
@@ -174,8 +177,6 @@
                     <div class="portfolio-photo-item">
                         <img src="images/piqsels.com-id-sthwf-2048x1402.jpg" />
                     </div>
-                </div>
-                <div class="portfolio-photos">
                     <div class="portfolio-photo-item">
                         <img src="images/piqsels.com-id-sthwf-2048x1402.jpg" />
                     </div>

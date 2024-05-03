@@ -364,8 +364,8 @@
 
 @media (max-width: 370px) {
     .navbar-menu {
-        width: 100%;
-        left: 0;
+        width: 260px;
+        left: -360px;
     }
 }
 @media (max-width: 350px) {

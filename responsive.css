@@ -139,7 +139,7 @@
     }
     .header-burger-btn {
         display: block;
-        z-index: 2;
+        z-index: 1;
         margin-left: 10px;
         margin-right: 10px;
     }
